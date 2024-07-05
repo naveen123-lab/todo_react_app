@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .TodoForm {
+    display: flex;
+    width: 100%;
+    background-color: rgba(27, 6, 6, 0.811);
+    justify-content: center;
+    align-items: center;
+  }
+  .todo-input {
+    height: 40px;
+    width: 70%;
+    font-size: 15px;
+     
+    border-radius: 8px;
+    margin-right: 4px;
+  }
+   
+   
+  .h1 {
+    
+    color: black;
+    
+  }
+  .todo-btn {
+    height: 62px;
+    width: 22%;
+    background-color: skyblue;
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: "Roboto";
+  }
+  .Todo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    height: 40px;
+
+  }
+  .icon1 {
+    height: 30px;
+    width: 50px;
+    margin-right: 0px;
+    color: black;
+    font-weight: bold;
+    background-color:rgb(20, 209, 108);
+    padding: 5px;
+     
+    margin-right: 9px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .icon2 {
+    height: 30px;
+     
+    font-weight: bold;
+    margin-right: 0px;
+    color: black;
+    padding: 5px;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .heading{
+    font-size: 30px;
+    color: blue;
+  }
+  .TodoWrapper {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(27, 6, 6, 0.973);
+    border-radius: 20px;
+    
+  }
+  .size {
+    font-size: 30px;
+  }
+  @media (min-width: 570px) and (max-width:767px) {
+    .todo-btn {
+      width: 25%;
+      font-size: 15px;
+      height: 50px;
+    }
+    .todo-input {
+      height: 50px;
+      width: 70%;
+      font-size: 20px;
+      padding: 10px;
+      margin-left: 20px;
+    }
+     
+    .icon1 {
+      height: 35px;
+      width: 70px;
+      background-color:limegreen;
+    }
+    .icon2 {
+      height: 35px;
+      width: 70px;
+       
+    }
+    .Todo {
+      display: flex;
+      width: 95%;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding-top: 30px;
+      background-color: aqua;
+      padding-top: 10px;
+      border-radius: 5px;
+      padding-bottom: 10px;
+      margin-right: 20px;  
+       
+    }
+     
+    .heading{
+      font-size: 22px;
+      color: blue;
+      margin-bottom: 20px;
+      margin-left: 10px;
+      margin-top: 0px;
+    }
+    .h1{
+      font-size: 20px;
+      width: 200px;
+      margin-left: 0px;
+      padding-left: 0px;
+       
+       
+    }
+
+     
+  }
+  @media (min-width: 760px) {
+    .todo-btn {
+      width: 25%;
+      font-size: 15px;
+      height: 60px;
+      margin: 10px;
+      margin: 10px;
+    }
+    .todo-input {
+      height: 60px;
+      width: 70%;
+      font-size: 20px;
+      padding: 10px;
+    }
+    .Todo {
+      display: flex;
+      width: 95%;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      background-color: aqua;
+      min-height:  60px;
+
+      border-radius: 5px;
+      margin-right: 10px;  
+      padding-top: 10px;
+      padding-bottom: 10px;
+      
+       
+    }
+    .icon1 {
+      height: 40px;
+      width: 80px;
+      font-size: 20px;
+      background-color:limegreen;
+       
+    }
+    .icon2 {
+      height: 40px;
+      width: 80px;
+      font-size: 20px;
+       
+    }
+    .h1 {
+      font-size: 20px;
+      color: black;
+      width: 300px;
+    }
+  }
+  @media (max-width: 570px) {
+    .todo-btn {
+      width: 22%;
+      font-size: 10px;
+      height: 40px;
+    }
+    .todo-input {
+      height: 40px;
+      width: 70%;
+      font-size: 12px;
+      padding: 10px;
+      margin-left: 20px;
+    }
+    .Todo {
+      display: flex;
+      width: 93%;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 30px;
+      background-color: aqua;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+      margin-right:   30px;  
+       
+    }
+    .heading{
+      font-size: 20px;
+      margin-bottom: 20px;
+      margin-left: 10px;
+    }
+  
+
+    .h1 {
+      font-size: 10px;
+      color: black;
+      width: 150px;
+      
+    }
+  }
+  
