@@ -1,6 +1,6 @@
 {
-  "name": "my-appp",
   "homepage": "https://naveen123-lab.github.io/reactttt_app",
+  "name": "my-appp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
