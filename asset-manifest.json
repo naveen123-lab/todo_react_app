@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/reactttt_app/static/css/main.7b3d1f16.css",
-    "main.js": "/reactttt_app/static/js/main.d2dc6ea6.js",
-    "static/js/453.13116392.chunk.js": "/reactttt_app/static/js/453.13116392.chunk.js",
-    "index.html": "/reactttt_app/index.html",
-    "main.7b3d1f16.css.map": "/reactttt_app/static/css/main.7b3d1f16.css.map",
-    "main.d2dc6ea6.js.map": "/reactttt_app/static/js/main.d2dc6ea6.js.map",
-    "453.13116392.chunk.js.map": "/reactttt_app/static/js/453.13116392.chunk.js.map"
+    "main.css": "/reactt_app.git/static/css/main.7b3d1f16.css",
+    "main.js": "/reactt_app.git/static/js/main.bd59a362.js",
+    "static/js/453.13116392.chunk.js": "/reactt_app.git/static/js/453.13116392.chunk.js",
+    "index.html": "/reactt_app.git/index.html",
+    "main.7b3d1f16.css.map": "/reactt_app.git/static/css/main.7b3d1f16.css.map",
+    "main.bd59a362.js.map": "/reactt_app.git/static/js/main.bd59a362.js.map",
+    "453.13116392.chunk.js.map": "/reactt_app.git/static/js/453.13116392.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b3d1f16.css",
-    "static/js/main.d2dc6ea6.js"
+    "static/js/main.bd59a362.js"
   ]
 }
