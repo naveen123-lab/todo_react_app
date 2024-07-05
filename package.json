@@ -1,4 +1,5 @@
 {
+  "homepage": "https://naveen123-lab.github.io/reactt_app.git",
    
   "name": "my-appp",
    
@@ -35,7 +36,10 @@
    
      
   "start": "react-scripts start",
-   
+
+  "predeploy":"npm run build",
+
+  "deploy":"gh-pages -d build", 
      
   "build": "react-scripts build",
    
